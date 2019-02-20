@@ -7,10 +7,15 @@
         <a class="more" href="#">more</a>
         <div class="single_left_coloum floatleft">
           <img src="{{ article.urlToImage }}" alt="" />
-          <h3>{{ article.description }}</h3>
-          <p>{{ article.publishedAt|truncate(13)}}</p>
-          <a class="readmore" href="https://www.facebook.com/bbcnews"
-            >read article</a
+          <h3>
+            <marquee>{{ article.description }}</marquee>
+          </h3>
+          <p>... {{ article.publishedAt|truncate(13)}}</p>
+          <a
+            class="readmore"
+            href="https://www.facebook.com/bbcnews"
+            style=" text-align: center;"
+            >... read article</a
           >
         </div>
       </div>
@@ -18,3 +23,4 @@
   </div>
 </div>
 {%endfor%} {% endblock %}
+<p>The home of BBC Sport online. Includes live sports coverage,...</p>
