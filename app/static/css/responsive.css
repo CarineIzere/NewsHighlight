@@ -83,7 +83,7 @@
   }
   #selectnav1,
   #selectnav2 {
-    background: none repeat scroll 0 0 #000;
+    background: none repeat scroll 0 0 rgb(58, 4, 4);
     border: medium none;
     color: #fff;
     display: block;
@@ -186,7 +186,7 @@
   }
   #selectnav1,
   #selectnav2 {
-    background: none repeat scroll 0 0 #000;
+    background: none repeat scroll 0 0 rgb(80, 74, 74);
     border: medium none;
     color: #fff;
     display: block;

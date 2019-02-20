@@ -80,7 +80,7 @@
 }
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active {
-  background: #000;
+  background: rgb(245, 94, 94);
 }
 
 /* DIRECTION CONTROLS (NEXT / PREV) */
@@ -158,12 +158,12 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  background: #666\9;
+  background: #666;
   background: rgba(80, 80, 80, 0.75);
   width: 100%;
 }
 .bx-wrapper .bx-caption span {
-  color: #fff;
+  color: rgb(238, 177, 177);
   display: block;
   font-family: Arial;
   font-size: 16px;
