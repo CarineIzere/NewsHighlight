@@ -21,12 +21,12 @@
 
 ## BDD Specifications
 
-| Behaviour      |          Input           |                                                                  Output |
-| :------------- | :----------------------: | ----------------------------------------------------------------------: |
-| Homepage loads | Data from index mark up  |                                               Displays all news sources |
-| New page loads | Click on any news source |                              All articles from the souce gets displayed |
-| On page load   | Click on any news source | Each article displays an image, title, description and publication date |
-| New page loads |    Click on read more    |                                  Redirects to the specific article page |
+            | Behaviour      |          Input           | Output                                                                  |
+            | :------------- | :----------------------: | ----------------------------------------------------------------------: |
+            | Homepage loads | Data from index mark up  | Displays all news sources                                               |
+            | New page loads | Click on any news source | All articles from the souce gets displayed                              |
+            | On page load   | Click on any news source | Each article displays an image, title, description and publication date |
+            | New page loads | Click on read more    | Redirects to the specific article page                                  |
 
 ## SetUp & Installation Requirements
 
