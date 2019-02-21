@@ -14,10 +14,10 @@
 
         These are features that the application implements for use by a user.
 
-. The home page presents users with all available news sources.
-. To view articles from a preferred source the user has to click on that source
-. User can opt to use the navbar which presents a more organized drodown of available sources repective of category.
-. Users can also choose to read articles from top headlines.
+            . The home page presents users with all available news sources.
+            . To view articles from a preferred source the user has to click on that source
+            . User can opt to use the navbar which presents a more organized drodown of available sources repective of category.
+            . Users can also choose to read articles from top headlines.
 
 ## BDD Specifications
 
