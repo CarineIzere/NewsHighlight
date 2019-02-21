@@ -14,19 +14,19 @@
 
         These are features that the application implements for use by a user.
 
-                . The home page presents users with all available news sources.
-                . To view articles from a preferred source the user has to click on that source
-                . User can opt to use the navbar which presents a more      organized drodown of available sources repective of       category.
-                . Users can also choose to read articles from top headlines.
+. The home page presents users with all available news sources.
+. To view articles from a preferred source the user has to click on that source
+. User can opt to use the navbar which presents a more organized drodown of available sources repective of category.
+. Users can also choose to read articles from top headlines.
 
 ## BDD Specifications
 
-            | Behaviour      |          Input           | Output                                                                  |
-            | :------------- | :----------------------: | ----------------------------------------------------------------------: |
-            | Homepage loads | Data from index mark up  | Displays all news sources                                               |
-            | New page loads | Click on any news source | All articles from the souce gets displayed                              |
-            | On page load   | Click on any news source | Each article displays an image, title, description and publication date |
-            | New page loads | Click on read more    | Redirects to the specific article page                                  |
+| Behaviour      |          Input           |                                                                  Output |
+| :------------- | :----------------------: | ----------------------------------------------------------------------: |
+| Homepage loads | Data from index mark up  |                                               Displays all news sources |
+| New page loads | Click on any news source |                              All articles from the souce gets displayed |
+| On page load   | Click on any news source | Each article displays an image, title, description and publication date |
+| New page loads |    Click on read more    |                                  Redirects to the specific article page |
 
 ## SetUp & Installation Requirements
 
@@ -34,17 +34,17 @@
 
      Clone or download the Repo
 
-        1. Create a virtual environment
-        2. \$ python3.6 -m venv --without-pip virtual
-        3. \$ source virtual/bin/env
-        4. \$ curl https://bootstrap.pypa.io/get-pip.py | python
-        5. Installing Flask and other Modules
-        $ python3.6 -m pip install Flask
-                $ python3.6 -m pip install Flask-Bootstrap
-                $ python3.6 -m pip install Flask-Script
-        6. Edit the config.py file with your api key from the news.org website
-        7. Run run.py
-        8. Access the application through `localhost:5000`
+1. Create a virtual environment
+2. \$ python3.6 -m venv --without-pip virtual
+3. \$ source virtual/bin/env
+4. \$ curl https://bootstrap.pypa.io/get-pip.py | python
+5. Installing Flask and other Modules
+   $ python3.6 -m pip install Flask
+     $ python3.6 -m pip install Flask-Bootstrap
+   \$ python3.6 -m pip install Flask-Script
+6. Edit the config.py file with your api key from the news.org website
+7. Run run.py
+8. Access the application through `localhost:5000`
 
 ### Cloning
 
